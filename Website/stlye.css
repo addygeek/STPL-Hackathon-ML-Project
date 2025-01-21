@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f084f4e;
+    color: #333;
+}
+header {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    background-color: #070550;
+    color: #ff0101;
+    padding: 1rem 0;
+    text-align: center;
+    height: 100px;
+}
+.heading{ 
+    overflow: hidden;  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-right: .15em solid orange; 
+    white-space: nowrap; margin: 0 auto; 
+    
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite; 
+} 
+@keyframes typing { 
+    from { width: 0 } 
+    to { width: 100% } 
+} 
+@keyframes blink-caret { 
+    from, to { border-color: transparent } 
+    50% { border-color: orange } 
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #555;
+    background-color: #003366;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:hover {
+    background-color: #ff7f50;
+    border-radius: 100%;
+    color: #5f0562;
+}
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 8px 8px 7px rgba(1, 1, 0, 0.5);
+}
+section {
+    margin-bottom: 2rem;
+}
+.camera-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+#camera-feed {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    background-color: #9e9aa3ce;
+}
+canvas {
+    display: none;
+}
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #5f0562;
+    color: #fff;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+button:hover {
+    background: #ff7f50;
+    color: #2a0342;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2a0342;
+    color: white;
+}
+h2{
+    color: #340336;
+}
